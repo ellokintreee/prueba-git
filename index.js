@@ -8,8 +8,8 @@ columnas.forEach((columna, indice)=>{
     })
 });
 
-/*function cambiarColumna(indice){
+function cambiarColumna(indice){
     columnas[columnaActiva].classList.remove("activa")
     columnas[indice].classList.add("activa")
     columnaActiva = indice
-}*/
+}
